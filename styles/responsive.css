@@ -1,0 +1,25 @@
+@media screen and (max-width: 993px) and (min-width: 577px) {
+    .nav-container{
+        margin: 50px 30px;
+    }
+    .header-container{
+        flex-direction: column;
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .nav-container{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .header-container{
+        flex-direction: column;
+        gap: 60px;
+    }
+}
