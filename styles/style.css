@@ -18,7 +18,7 @@ a{
 }
 button{
     height: 50px;
-    width: 220px;
+    width: 225px;
     color: white;
     background-color: transparent;
     cursor: pointer;
@@ -35,15 +35,18 @@ button{
 
 /* Header section starts here */
 header{
-    width: var(--primary-width);
+    max-width: var(--primary-width);
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 95px;
 }
 .nav-container{
+    max-width: var(--primary-width);
+    margin: 50px 20px 30px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 180px;
     margin-top: 55px;
 }
 .nav-container > a > h1{
@@ -54,7 +57,7 @@ header{
 }
 .nav-items{
     display: flex;
-    width: 440px;
+    gap: 5px;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -63,12 +66,13 @@ header{
     padding: 3px;
 }
 .nav-item > a{
-    padding: 7px 18px;
+    padding: 10px 21px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
     font-weight: 400;
+    font-size: 1rem;
 }
 .nav-item:first-child > a{
     background-color: tomato;
@@ -80,14 +84,15 @@ header{
 }
 
 .header-container{
-    margin-top: 30px;
+    max-width: var(--primary-width);
+    margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .header-contents{
-    max-width: 600px;
-    padding-right: 145px;
+    max-width: 620px;
+    padding-right: 45px;
 }
 .header-contents > h1{
     font-size: 5rem;
@@ -128,6 +133,25 @@ header{
     font-size: 1rem;
     color: var(--primary-description-color);
 }
+.workout{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    top: 120px;
+    right: -60px;
+    background-color: rgba(129, 129, 129, 0.295);
+}
+.tutorial{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    bottom: 71px;
+    left: -100px;
+    background-color: rgba(65, 65, 65, 0.253);
+}
 .tutorial > div > h3{
     font-size: 1.5rem;
     font-weight: 900;
@@ -137,24 +161,6 @@ header{
     font-size: 1rem;
     color: var(--primary-description-color);
 }
-.workout{
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    top: 120px;
-    right: -60px;
-    background-color: rgba(110, 110, 110, 0.295);
-}
-.tutorial{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    bottom: 71px;
-    left: -100px;
-    background-color: rgba(65, 65, 65, 0.253);
-}
 .shape{
     width: 40px;
     height: 40px;
@@ -162,3 +168,62 @@ header{
     border-radius: 50%;
 }
 /* Header section ends here */
+
+/* Habit section starts here */
+.habit-section{
+    max-width: var(--primary-width);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.habit-header{
+    width: 90%;
+    margin: 0 auto;
+}
+.habit-header > h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.habit-header > p{
+    color: var(--primary-description-color);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 23px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.habit-items{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.habit-items > div{
+    max-width: 230px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.habit-items > div > h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.habit-items > div > p{
+    font-size: 1rem;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--primary-description-color);
+}
+.habit-image{
+    border: 3px solid rgba(77, 77, 77, 0.418);
+    border-radius: 50%;
+    margin: 13px;
+}
+/* Habit section ends here */

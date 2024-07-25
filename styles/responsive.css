@@ -1,16 +1,72 @@
 @media screen and (max-width: 993px) and (min-width: 577px) {
-    .nav-container{
-        margin: 50px 30px;
-    }
     .header-container{
         flex-direction: column;
         gap: 80px;
     }
+    .header-bg{
+        display: flex;
+        align-items: center;
+        width: 350px;
+        margin: 0 auto;
+    }
+    .workout{
+        top: 60px;
+        right: -35px;
+    }
+    .tutorial{
+        bottom: 129px;
+        left: -45px;
+    }
+    .habit-header{
+        margin-bottom: 47px;
+    }
+    .habit-header > h1{
+        font-size: 2.76rem;
+    }
+    .habit-section{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .habit-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 40px;
+    }
+    .habit-items > div{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .header-contents{
+        max-width: 470px;
+    }
+    .nav-items{
+        gap: 1px;
+    }
+    .nav-item > a{
+        padding: 4px 12px;
+    }
+    .workout{
+        top: 57px;
+        right: -35px;
+    }
+    .tutorial{
+        bottom: 129px;
+        left: -45px;
+    }
 }
 @media screen and (max-width: 576px) {
     .nav-container{
-        margin-right: 15px;
-        margin-left: 15px;
+        margin: 40px 40px 37px 40px;
+        gap: 129px;
+    }
+    .header-contents{
+        max-width: 440px;
+    }
+    .header-contents > h1{
+        line-height: 74px;
+        font-size: 3.6rem;
     }
     .nav-items{
         display: none;
@@ -21,5 +77,18 @@
     .header-container{
         flex-direction: column;
         gap: 60px;
+    }
+    .tutorial{
+        bottom: 240px;
+        left: -45px;
+    }
+    .habit-header > h1{
+        font-size: 2rem;
+    }
+    .habit-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
 }
