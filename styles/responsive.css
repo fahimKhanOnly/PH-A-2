@@ -36,16 +36,32 @@
     .habit-items > div{
         margin: 0 auto;
     }
+    .run-section{
+        max-width: calc(100% - 40px);
+    }
+    .running-contents{
+        max-width: 52%;
+    }
+    .running-bg{
+        max-width: 48%;
+    }
+    .running-contents > h1{
+        font-size: 2.9rem;
+    }
 }
 @media screen and (max-width: 800px) {
     .header-contents{
         max-width: 470px;
     }
+    .nav-container{
+        gap: 110px;
+    }
     .nav-items{
-        gap: 1px;
+        gap: 2px;
     }
     .nav-item > a{
         padding: 4px 12px;
+        font-size: 0.9rem;
     }
     .workout{
         top: 57px;
@@ -55,18 +71,54 @@
         bottom: 129px;
         left: -45px;
     }
+
+
+
+
+
+    .run-section{
+        max-width: calc(100% - 30px);
+    }
+    .running-bg{
+        max-width: 48%;
+        margin-left: 0;
+    }
+    .running-contents{
+        max-width: 52%;
+        margin-right: 4px;
+    }
+    .running-contents > h1{
+        font-size: 2.6rem;
+    }
 }
 @media screen and (max-width: 576px) {
     .nav-container{
-        margin: 40px 40px 37px 40px;
-        gap: 129px;
+        min-width: calc(100% - 80px);
+        gap: 124px;
     }
     .header-contents{
-        max-width: 440px;
+        max-width: 360px;
     }
     .header-contents > h1{
         line-height: 74px;
         font-size: 3.6rem;
+    }
+    .header-bg{
+        width: 280px;
+    }
+    .workout{
+        top: 60px;
+        right: -64px;
+    }
+    .workout > h1{
+        font-size: 1.4rem;
+    }
+    .workout > p{
+        font-size: 0.79rem;
+    }
+    .tutorial{
+        bottom: 129px;
+        left: -45px;
     }
     .nav-items{
         display: none;
@@ -90,5 +142,29 @@
         flex-direction: column;
         align-items: center;
         gap: 30px;
+    }
+
+
+
+
+
+
+    .run-section{
+        width: 400px;
+        flex-direction: column;
+    }
+    .running-contents{
+        max-width: 100%;
+        margin: 30px 0;
+        padding: 0 30px;
+    }
+    .running-contents > a, button{
+        width: 100%;
+    }
+    .running-bg{
+        margin-top: 8px;
+        margin-right: 0;
+        max-width: calc(100% - 60px);
+        background-position: center;
     }
 }

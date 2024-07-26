@@ -18,7 +18,7 @@ a{
 }
 button{
     height: 50px;
-    width: 225px;
+    width: 230px;
     color: white;
     background-color: transparent;
     cursor: pointer;
@@ -227,3 +227,45 @@ header{
     margin: 13px;
 }
 /* Habit section ends here */
+
+/* Run section starts here */
+.run-section{
+    max-width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgba(70, 70, 70, 0.473);
+    border-radius: 18px;
+}
+.running-contents{
+    max-width: 450px;
+    margin: 30px 30px 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+.running-contents > h1{
+    font-size: 3.04rem;
+    font-weight: 900;
+}
+.running-contents > p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-description-color);
+    line-height: 26px;
+    margin-bottom: 14px;
+}
+.running-bg{
+    width: 385px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 18px;
+    background: url(../assets/images/run.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Run section ends here */
