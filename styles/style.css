@@ -126,11 +126,11 @@ header{
     backdrop-filter: blur(10px);
 }
 .workout > h1{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 900;
 }
 .workout > p{
-    font-size: 1rem;
+    font-size: 0.829rem;
     color: var(--primary-description-color);
 }
 .workout{
@@ -140,7 +140,7 @@ header{
     justify-content: center;
     align-items: baseline;
     top: 120px;
-    right: -60px;
+    right: -24px;
     background-color: rgba(129, 129, 129, 0.295);
 }
 .tutorial{
@@ -269,3 +269,97 @@ header{
     background-repeat: no-repeat;
 }
 /* Run section ends here */
+
+/* Team section starts here */
+.team-container{
+    max-width: var(--primary-width);
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+.team-info{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.team-header{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.team-description{
+    line-height: 28px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--primary-description-color);
+}
+.trainers{
+    background-color: rgba(70, 70, 70, 0.473);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    padding: 20px;
+}
+.trainer{
+    max-width: 400px;
+    height: 270px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.trainer > h3{
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.trainer > p{
+    color: var(--primary-description-color);
+    font-size: 0.90rem;
+    font-weight: 400;
+}
+.jerome{
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/jerome.png);
+    background-size: cover;
+}
+.cameron{
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/cameron.png);
+    background-size: cover;
+}
+.darrell{
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/darrell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.dianne{
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/dianne.png);
+    background-size: cover;
+    background-position: center;
+}
+.cody{
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/cody.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.theresa{
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/theresa.png);
+    background-size: cover;
+}
+/* Team section ends here */
+
+/* Footer section starts here */
+footer{
+    background-color: rgba(70, 70, 70, 0.473);
+}
+.footer{
+    width: var(--primary-width);
+    margin: 0 auto;
+}
+/* Footer section ends here */
