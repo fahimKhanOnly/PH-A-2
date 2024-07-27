@@ -51,6 +51,16 @@
     .team-container{
         margin: 0 13px 80px 13px;
     }
+    .footer{
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .footer-items{
+        width: 476px;
+        gap: 140px;
+    }
 }
 @media screen and (max-width: 800px) {
     .header-contents{
@@ -101,6 +111,9 @@
     }
 }
 @media screen and (max-width: 576px) {
+    button{
+        font-size: 1rem;
+    }
     .nav-container{
         min-width: calc(100% - 80px);
         gap: 124px;
@@ -115,9 +128,12 @@
     .header-bg{
         width: 280px;
     }
+    .header-bg > img{
+        width: 255px;
+    }
     .workout{
-        top: 60px;
-        right: -64px;
+        top: 53px;
+        right: -19px;;
     }
     .workout > h1{
         font-size: 1.4rem;
@@ -126,8 +142,19 @@
         font-size: 0.79rem;
     }
     .tutorial{
-        bottom: 129px;
-        left: -45px;
+        bottom: 147px;
+        left: -82px;
+        gap: 8px;
+    }
+    .tutorial > div > h3{
+        font-size: 1.4rem;
+    }
+    .tutorial > div > p{
+        font-size: 0.9rem;
+    }
+    .shape{
+        width: 36px;
+        height: 36px;
     }
     .nav-items{
         display: none;
@@ -138,10 +165,6 @@
     .header-container{
         flex-direction: column;
         gap: 60px;
-    }
-    .tutorial{
-        bottom: 240px;
-        left: -45px;
     }
     .habit-header > h1{
         font-size: 2rem;
@@ -189,5 +212,23 @@
     }
     .trainer{
         width: 270px;
+    }
+    .footer{
+        flex-direction: column;
+        width: 300px;
+    }
+    .footer-info{
+        width: 100%;
+    }
+    .footer-info > h1{
+        font-size: 4.2rem;
+    }
+    .footer-items{
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .copyright{
+        margin-top: 36px;
     }
 }
