@@ -137,6 +137,66 @@
             </div>
         </section>
 
+        <section class="bmi-container">
+            <div class="bmi-info">
+                <h1>BMI Calculator</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+
+            <div class="calc-chart-container-for-bg">
+                <div class="calc-chart-container">
+                    <div class="bmi-chart">
+                        <h2>BMI Calculator Chart</h2>
+                        
+                        <table>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="bmi-calc">
+                        <h2>Calculate your BMI</h2>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+
+                        <form>
+                            <input type="number" name="Height" class="height" placeholder="Height/cm">
+                            <input type="number" name="Weight" class="weight" placeholder="Weight/kg">
+                            <input type="number" name="Age" class="age" placeholder="Age">
+                            <select name="gender" class="gender">
+                                <option value="none">Sex</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+
+                            <select name="factors" class="factors">
+                                <option value="none">Select an activity factor</option>
+                                <option value="weight loss">Weight Loss</option>
+                                <option value="weight gain">Weight Gain</option>
+                            </select>
+                            <button>Calculate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>

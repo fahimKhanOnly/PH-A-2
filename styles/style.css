@@ -299,6 +299,100 @@ header{
 }
 /* Run section ends here */
 
+
+
+
+
+/* BMI section starts here */
+.bmi-container{
+    margin-bottom: 90px;
+}
+.bmi-info{
+    max-width: 737px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.bmi-info > h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.bmi-info > p, .bmi-calc > p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 18px;
+    color: var(--primary-description-color);
+}
+.calc-chart-container-for-bg{
+    background-color: var(--primary-bg-color);
+    padding: 45px 0;
+}
+.calc-chart-container{
+    max-width: var(--primary-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bmi-chart{
+    max-width: fit-content;
+}
+.bmi-chart > h2{
+    font-size: 1.77rem;
+    font-weight: 900;
+    margin-bottom: 51px;
+}
+.bmi-calc{
+    max-width: 55%;
+}
+.bmi-calc > h2{
+    font-size: 1.77rem;
+    font-weight: 900;
+}
+.bmi-calc > form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+form{
+    margin-top: 32px;
+}
+.factors{
+    grid-column: span 2;
+}
+.height, .weight, .age, .gender, .factors{
+    max-width: 100%;
+    border-radius: 7px;
+    background-color: rgb(54, 54, 54);
+    height: 43px;
+    border: none;
+    outline: none;
+}
+form > input{
+    padding-left: 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+form > input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-description-color);
+}
+form > select{
+    font-size: 1rem;
+    color: var(--primary-description-color);
+    padding: 0 20px;
+}
+form > button{
+    margin-top: 22px;
+}
+
+/* BMI section ends here */
+
+
+
+
+
+
 /* Team section starts here */
 .team-container{
     max-width: var(--primary-width);
