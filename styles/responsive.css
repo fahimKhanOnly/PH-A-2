@@ -1,3 +1,44 @@
+@media screen and (max-width: 1110px) {
+    .header-container{
+        max-width: 891px;
+    }
+    .header-bg{
+        max-width: 300px;
+    }
+    .workout{
+        top: 75px;
+        right: -50px;
+    }
+    .tutorial{
+        bottom: 90px;
+        left: -50px;
+    }
+    .header-contents{
+        max-width: 570px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .habit-section{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .run-section{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .calc-chart-container{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .trainers{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .footer{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
 @media screen and (max-width: 993px) and (min-width: 577px) {
     .header-container{
         flex-direction: column;
@@ -128,19 +169,29 @@
     button{
         font-size: 1rem;
     }
+    header{
+        margin-bottom: 50px;
+    }
     .nav-container{
         min-width: calc(100% - 80px);
-        gap: 124px;
+        gap: 100px;
+    }
+    .header-container{
+        margin: 0 13px 0 13px;
     }
     .header-contents{
-        max-width: 360px;
+        max-width: calc(100% - 17px);
+        padding-right: 1px;
+        margin: 0 13px 0 13px;
     }
     .header-contents > h1{
+        width: 400px;
         line-height: 74px;
         font-size: 3.6rem;
     }
     .header-bg{
         width: 280px;
+        margin-left: 30px;
     }
     .header-bg > img{
         width: 255px;
@@ -183,6 +234,9 @@
     .habit-header > h1{
         font-size: 2rem;
     }
+    .habit-header > p{
+        max-width: 90%;
+    }
     .habit-items{
         display: flex;
         flex-direction: column;
@@ -191,6 +245,8 @@
     }
     .run-section{
         width: 400px;
+        margin-left: auto;
+        margin-right: auto;
         flex-direction: column;
     }
     .running-contents{
@@ -205,7 +261,8 @@
         margin-top: 8px;
         margin-right: 0;
         max-width: calc(100% - 60px);
-        background-position: center;
+        background-size: 700px;
+        background-position: 66% 26%;
     }
     .team-container{
         margin: 0 13px 60px 13px;
@@ -269,7 +326,7 @@
         width: 100%;
     }
     .footer-info > h1{
-        font-size: 4.2rem;
+        font-size: 4rem;
     }
     .footer-items{
         flex-direction: column;
@@ -278,5 +335,173 @@
     }
     .copyright{
         margin-top: 36px;
+        margin: 36px 13px 0 13px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .nav-container > a > h1{
+        font-size: 2.3rem;
+    }
+    .nav-container{
+        gap: 80px;
+        margin-top: 18px;
+    }
+    .menu-icon{
+        font-size: 1.3rem;
+    }
+    .header-container{
+        max-width: 380px;
+    }
+    .header-contents{
+        max-width: 100%;
+        margin: 0 13px;
+    }
+    .header-contents > h1{
+        font-size: 2.2rem;
+        line-height: 43px;
+        width: 260px;
+    }
+    .header-btn-container > button{
+        height: 45px;
+        width: 200px;
+    }
+    .tutorial{
+        bottom: 147px;
+        left: -42px;
+        gap: 7px;
+    }
+    .tutorial > div > h3{
+        font-size: 1.3rem;
+    }
+    .tutorial > div > p{
+        font-size: 0.8rem;
+    }
+    .shape{
+        width: 30px;
+        height: 30px;
+    }
+    .habit-header{
+        width: 95vw;
+    }
+    .habit-header > h1{
+        font-size: 2rem;
+    }
+    .run-section{
+        margin-bottom: 40px;
+    }
+    .calc-chart-container{
+        margin: 0 13px 0 13px;
+    }
+    .team-info{
+        max-width: 425px;
+    }
+    .team-header{
+        font-size: 2rem;
+    }
+    .team-description{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+    .bmi-container{
+        margin-bottom: 40px;
+    }
+    form > button{
+        height: 40px;
+    }
+}
+@media screen and (max-width: 352px) {
+    .header-btn-container > button{
+        font-size: 0.84rem;
+    }
+    .nav-container{
+        gap: 45px;
+    }
+    .header-container{
+        max-width: 350px;
+    }
+    .header-contents{
+        max-width: 100%;
+    }
+    .header-contents > p{
+        line-height: 22px;
+    }
+    .header-bg > div{
+        border-radius: 15px;
+        padding: 10px 11px;
+    }
+    .workout{
+        right: 30px;
+    }
+    .workout > h1{
+        font-size: 1.1rem;
+    }
+    .workout > p{
+        font-size: 0.6rem;
+    }
+    .tutorial{
+        left: -17px;
+    }
+    .tutorial > div > p{
+        font-size: 0.7rem;
+    }
+    .tutorial > div > h3{
+        font-size: 1rem;
+    }
+    .habit-header{
+        width: 95vw;
+    }
+    .habit-header > h1{
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+    }
+    .habit-header > p{
+        max-width: 80%;
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+    .running-contents > h1{
+        font-size: 2rem;
+    }
+    .running-bg{
+        height: 250px;
+    }
+    th, td{
+        padding: 13px 14px;
+    }
+    td{
+        font-size: 0.9rem;
+    }
+    .team-info{
+        width: 280px;
+        margin: 50px auto;
+   }
+    .team-header{
+        font-size: 2rem;
+    }
+    .trainers{
+        width: fit-content;
+        padding: 18px;
+    }
+    .trainer{
+        max-width: 225px;
+        height: 240px;
+    }
+    .items-column > ul > li > a{
+        font-size: 1rem;
+    }
+}
+
+/* Buttons animation */
+@media screen and (min-width: 1024px) {
+    button{
+        transition: all;
+        transition-duration: 0.28s;
+    }
+    button:hover{
+        background-color: transparent;
+        border: 1px solid cyan;
+    }
+    .download-btn:hover{
+        background-color: rgb(37, 37, 37);
     }
 }

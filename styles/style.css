@@ -47,6 +47,7 @@ table{
 td, th{
     border: 2px solid rgba(71, 71, 71, 0.308);
     padding: 15px 20px;
+
 }
 th{
     text-align: left;
@@ -293,15 +294,13 @@ header{
     height: 300px;
     margin: 30px;
     border-radius: 18px;
-    background: url(../assets/images/run.jpg);
+    background: url(../assets/run.jpg);
     background-size: cover;
+    background-size: 990px;
+    background-position: 65% 30%;
     background-repeat: no-repeat;
 }
 /* Run section ends here */
-
-
-
-
 
 /* BMI section starts here */
 .bmi-container{
@@ -382,16 +381,13 @@ form > select{
     color: var(--primary-description-color);
     padding: 0 20px;
 }
+.gender, .factors{
+    border-right: 20px solid transparent;
+}
 form > button{
     margin-top: 22px;
 }
-
 /* BMI section ends here */
-
-
-
-
-
 
 /* Team section starts here */
 .team-container{
@@ -447,32 +443,32 @@ form > button{
     font-weight: 400;
 }
 .jerome{
-    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/jerome.png);
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/jerome.png);
     background-size: cover;
 }
 .cameron{
-    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/cameron.png);
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/cameron.png);
     background-size: cover;
 }
 .darrell{
-    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/darrell.png);
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/darrell.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .dianne{
-    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/dianne.png);
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/dianne.png);
     background-size: cover;
     background-position: center;
 }
 .cody{
-    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/cody.png);
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/cody.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .theresa{
-    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/images/theresa.png);
+    background: linear-gradient(rgba(36, 36, 36, 0.062), rgba(0, 0, 0, 0.473)), url(../assets/theresa.png);
     background-size: cover;
 }
 /* Team section ends here */
