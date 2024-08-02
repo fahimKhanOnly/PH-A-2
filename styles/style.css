@@ -258,6 +258,64 @@ header{
 }
 /* Habit section ends here */
 
+/* Food section starts here */
+.food-container{
+    max-width: var(--primary-width);
+    margin: 0 auto 85px auto;
+}
+.food-header{
+    max-width: 90%;
+    margin: 0 auto 50px auto;
+}
+.food-header > h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.food-header > p{
+    max-width: 90%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--primary-description-color);
+    text-align: center;
+    margin: 0 auto;
+    line-height: 25px;
+}
+.food-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 20px;
+    background-color: var(--primary-bg-color);
+    border-radius: 18px;
+    padding: 20px;
+}
+.food-title{
+    font-size: 1.53rem;
+    font-weight: 800;
+    margin-bottom: 17px;
+}
+.food-item > img{
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.food-item-info > h4{
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.food-item-info > ul > li{
+    list-style-type: disc;
+    margin-left: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--primary-description-color);
+}
+/* Food section ends here */
+
 /* Run section starts here */
 .run-section{
     max-width: var(--primary-width);
